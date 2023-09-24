@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.appointment-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 16px;
+  padding: 16px 8px;
+}
+
+.appointment-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.star-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.star-icon {
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    width: 260px;
+    max-width: 300px;
+  }
+}
